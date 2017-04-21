@@ -1,0 +1,280 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.top-header {
+    background: black;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.social {
+	width: 50%;
+	float: left;
+}
+
+.social ul {
+	margin: 0;
+    padding: 0;
+
+}
+
+.social ul li {
+    list-style: none;
+    display: inline-block;
+}
+.social ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.contact {
+	width: 50%;
+    float: right;
+    text-align: right;
+    color: #fff;
+}
+
+.bottom-header {
+	overflow: hidden;
+	padding: 5px;
+}
+
+.logo {
+	float: left;
+    width: 30%;
+}
+.logo img {
+	width: 150px;
+    display: block;
+}
+
+nav{
+    text-align: right;
+    padding: 5px;
+}
+nav ul{
+	margin: 0;
+    padding: 0;
+}
+nav ul li{
+	display: inline-block;
+    list-style: none;
+    border-right: 2px solid rgb(199,197,196);
+}
+nav ul li a{
+	text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	color: #71D13D;
+	text-decoration: underline;
+}
+.banner {
+	background:url(../image/plant-2230238_960_720.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.text h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+    padding: 50px;
+
+}
+
+.dform {
+	padding-bottom: 30px;
+}
+
+.dbotton{
+	margin-top: 3px;
+    color: #fff;
+    background: #15a008;
+    display: inline-block;
+    box-shadow: 4px 3px 5px 3px rgba(74, 195, 78, 0.68);
+    border: 3px solid rgba(0, 0, 0, 0.32);
+}
+
+.work {
+	text-align: center;
+    padding: 15px;
+}
+
+.heading h2{
+    font-size: 28px;
+    color: #4caf67;
+    font-family: cursive;
+}
+
+.heading p{
+    font-size: 18px;
+    color: rgba(139, 195, 74, 0.81);
+    font-style: italic;
+}
+
+.education {
+	text-align: center;
+}
+.education ul{
+	margin: 0;
+	padding: 0;
+}
+.education ul li{
+	list-style: none;
+    display: inline-block;
+}
+.education ul li a{
+	color: green;
+    font-size: 35px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+.education ul li a:hover{
+	color: black;
+}
+.about-us-section {
+	background: url(../image/sunrise-2231544_960_720.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about.us{
+	float: left;
+    display: block;
+    width: 70%;
+    padding-bottom: 25px;
+}
+.about.us h1{
+    font-size: 35px;
+    padding-left: 15px;
+}
+.about.us p{
+    font-size: 20px;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.rbotton{
+	padding:5px;
+    color: green;
+    border-radius: 10px 5px;
+    background: #fff;
+    margin-left: 15px;
+}
+.volunteer {
+	color: #fff;
+    text-align: center;
+    background: #715252;
+    float: right;
+    margin: 135px 32px 0 0;
+    padding: 28px;
+}
+.volunteer h2{
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+.volunteer p{
+	margin: 0;
+	padding: 0;
+}
+
+.jbotton{
+	padding: 5px;
+    border-radius: 5px 3px;
+    background: #fff;
+}
+
+.sponsor {
+	text-align:left;
+	color: #fff;
+    float: right;
+    display:block;
+    padding-bottom: 45px;
+}
+
+.spon-text {
+	background: url(../image/leaf-409258_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 50%
+}
+
+.spon-text img {
+	display: block;
+	max-width: 100%;
+    float: left;
+    width: 50%
+}
+
+.spon-text p{
+	font-size: 25px;
+}
+
+.cbotton{
+	padding: 5px;
+    background: #0996ce;
+    color: #fff;
+}
+
+.footert {
+	 background-color: #3a3232;
+	 padding: 15px
+}
+
+.footert p{
+	color: #fff;
+    padding:0;
+	margin: 0;
+}
+.footerb {
+	background: #1D1D1D;
+	overflow: hidden;
+}
+
+.copyright p {
+	color: #fff;
+	font-size: 12px;
+	float: left;
+	
+}
+
+.o {
+    text-align: right;
+    float: right;
+}
+.o ul{
+	margin: 0;
+    padding: 0;
+}
+.o ul li{
+	display: inline-block;
+    list-style: none;
+    
+}
+.o ul li a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+}
